@@ -1,0 +1,22 @@
+#logo {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+nav {
+  background: #000000;
+  background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 44%, rgba(14, 20, 17, 1) 71%, rgba(60, 67, 163, 1) 100%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
+}
+#first {
+  background-color: black;
+}
+h1 {
+  font-size: 5rem;
+}
+hr {
+  width: 30%;
+  border: 2px solid white;
+}
+#second {
+  background-color: #000000;
+}
