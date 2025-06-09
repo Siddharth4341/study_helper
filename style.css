@@ -1,22 +1,10 @@
-#logo {
-  width: 200px;
-  height: 100px;
-  object-fit: cover;
+* {
+  margin: 0px;
+  padding: 0p;
+  box-sizing: border-box;
 }
-nav {
-  background: #000000;
-  background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 44%, rgba(14, 20, 17, 1) 71%, rgba(60, 67, 163, 1) 100%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
-}
-#first {
-  background-color: black;
-}
-h1 {
-  font-size: 5rem;
-}
-hr {
-  width: 30%;
-  border: 2px solid white;
-}
-#second {
-  background-color: #000000;
+header {
+    background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,9,121,1) 39%, rgba(26,53,164,1) 100%);
+  text-shadow: 2px 2px #140e36;
 }
