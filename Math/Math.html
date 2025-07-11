@@ -2,8 +2,134 @@
 <html>
     <head>
         <title>study-helper</title>
-        <link rel="stylesheet" href="Math.css">
-        <script src="Math.js" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="Science.css">
+        <script src="Math.js" defer></script>
     </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../logo.png" style="width: 120px;"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Topics
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Recently Opened</a></li>
+                                <li><a class="dropdown-item" href="#">Current Unit</a></li>
+                                <li><a class="dropdown-item" href="#direct">All Subjects</a></li></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quiz/Test Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Back</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="p-5 text-center" id="direct">
+            <h1 class="display-2 lead">Math</h1>
+        </header>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h3>Expressions, Equations, and Order of Operations</h3>
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Algebra begins with understanding how to represent and manipulate mathematical ideas using symbols and logic. At its core are expressions and equations. An expression is a mathematical phrase that contains numbers, variables, and operation signs but does not have an equals sign. Examples include 4x + 2 and 7 - 3y. On the other hand, an equation asserts that two expressions are equal, such as 4x + 2 = 10. Solving algebraic problems begins with correctly evaluating expressions using the order of operations, often remembered with the acronym PEMDAS. This stands for Parentheses, Exponents, Multiplication and Division (from left to right), and Addition and Subtraction (from left to right). Applying this consistently helps avoid mistakes when simplifying expressions. Variables in algebra stand in for unknown values and let us generalize and express patterns. Understanding how to simplify expressions requires combining like terms—terms with the same variables raised to the same powers. For example, in 3x + 5 + 2x - 1, we combine 3x and 2x to get 5x, and 5 and -1 to get 4, giving us 5x + 4. Algebra relies heavily on foundational properties, including the distributive property, which allows multiplication across addition, like a(b + c) = ab + ac. The commutative property lets us change the order of addition or multiplication without affecting the result, and the associative property lets us regroup terms. These ideas serve as the bedrock of more advanced concepts and offer students tools to build more complex models later. Expressions model everything from physics formulas to finance problems. Learning to interpret and manipulate them prepares students for solving equations and analyzing functions in later units.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h3>Linear Equations and Inequalities</h3>
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Solving linear equations is a fundamental algebraic skill. A linear equation is one in which the variable is raised to the first power and appears on its own without multiplication or division by another variable. The standard form is ax + b = c. To solve this, we isolate the variable by performing inverse operations. For example, in 2x + 3 = 9, subtract 3 from both sides to get 2x = 6, and then divide by 2 to get x = 3. These operations preserve equality and move us toward a solution. More complex linear equations may involve parentheses, requiring the distributive property, or fractions, which we can clear by multiplying both sides by a common denominator. Equations like 3(x - 1) + 2x = 10 demand multiple steps, including distributing, combining like terms, and isolating the variable. Equations can also have no solution or infinite solutions depending on whether their simplified forms are contradictory or identical. In addition to equations, we also solve linear inequalities, which involve the same steps as equations but use symbols like <, ≤, >, or ≥ instead of an equals sign. For example, solving 2x - 4 < 10 gives x < 7 after adding 4 and dividing by 2. One key difference in inequalities is that when we multiply or divide both sides by a negative number, we must flip the inequality sign. Graphing solutions on a number line helps visualize the solution set. Compound inequalities include two related statements such as 3 < x ≤ 7, indicating that x falls within a specific range. Understanding these types helps students model real-world constraints like budget ranges or physical limitations. Mastery of solving linear equations and inequalities prepares students for solving systems, functions, and quadratic equations ahead.</p>
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h3>Linear Functions and Graphing</h3>
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Linear functions describe relationships between variables where the rate of change remains constant. These functions are represented in the form y = mx + b, where m is the slope and b is the y-intercept. The slope represents how much y changes for every unit increase in x. A positive slope means the line rises, while a negative slope means the line falls. The y-intercept is the point where the graph crosses the y-axis, representing the value of y when x is zero. To graph a linear equation, students start by identifying the slope and y-intercept and plotting points. Another method is using a table of values: selecting inputs, calculating outputs, and plotting the resulting ordered pairs. Lines can be horizontal, vertical, or diagonal depending on the slope. A slope of zero creates a horizontal line, while an undefined slope leads to a vertical line. Slope can be calculated from two points using the formula (y₂ - y₁)/(x₂ - x₁). For example, between points (2, 3) and (4, 7), the slope is (7 - 3)/(4 - 2) = 4/2 = 2. Slope is also useful in interpreting real-world situations, such as the speed of a car or rate of savings growth. Comparing slopes helps identify parallel lines (same slope) and perpendicular lines (negative reciprocal slopes). Point-slope form, y - y₁ = m(x - x₁), gives a way to write equations based on known points and slopes. Graphing inequalities involves shading regions above or below the boundary line, depending on the inequality direction. A dashed boundary line indicates that the values on the line are not included. Linear graphs make abstract relationships visual and intuitive. They connect algebraic understanding to geometry and prepare students for analyzing more complex functions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <h3>Systems of Equations and Inequalities</h3>
+                </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Systems of equations involve two or more equations with multiple variables, and their solution is the point or points that satisfy all equations simultaneously. The most common system consists of two linear equations in two variables. There are three methods to solve systems: substitution, elimination, and graphing. The substitution method involves solving one equation for a variable and plugging it into the other. For example, if y = 2x and the second equation is x + y = 9, substituting gives x + 2x = 9, leading to x = 3 and y = 6. Elimination involves aligning equations and adding or subtracting them to eliminate one variable. In x + y = 8 and x - y = 2, adding gives 2x = 10, so x = 5 and y = 3. Graphing involves plotting both equations and finding their intersection. While visual, it may be less precise for messy decimals or fractions. Systems may have one solution (intersecting lines), no solution (parallel lines), or infinitely many solutions (same line). Systems are used in real-world problem-solving, such as business budgeting or resource allocation. Systems of inequalities follow similar rules but represent solution sets with shaded regions, where the overlap shows feasible solutions. These systems model constraints, such as production limits or physical boundaries. Word problems often frame systems in everyday language: “The sum of two numbers is 50, and their difference is 10,” leading to equations like x + y = 50 and x - y = 10. Students must learn to translate, solve, and interpret solutions in context. Systems deepen understanding of linear relationships and set the stage for nonlinear analysis in future units.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
+                    <h3>Exponents and Polynomials</h3>
+                </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Exponents express repeated multiplication and are governed by several key rules. For instance, aⁿ × aᵐ = aⁿ⁺ᵐ, and (aⁿ)ᵐ = aⁿ×ᵐ. Understanding these rules is essential for simplifying expressions and solving exponential equations. Negative exponents indicate reciprocals: a⁻ⁿ = 1/aⁿ. The zero exponent rule tells us that any non-zero base raised to the zero power equals one. These properties allow algebraic expressions to be compact and precise. Polynomials, made up of terms with variables and coefficients, are algebraic expressions that combine through addition, subtraction, and multiplication. A polynomial like 4x² - 3x + 2 has three terms and is considered quadratic because its highest exponent is two. Terms are classified by degree—the exponent of the variable—and can include constants (like 2) or coefficients (like -3 in -3x). To add or subtract polynomials, combine like terms. For example, (2x² + 3x + 1) + (x² - 2x + 4) becomes 3x² + x + 5. Multiplying polynomials involves distributing each term in one expression across every term in the other. The FOIL method (First, Outer, Inner, Last) is used for binomials like (x + 2)(x - 5), which results in x² - 3x - 10. Polynomial division introduces factoring and long division techniques. Factoring, the reverse of multiplication, involves expressing a polynomial as the product of simpler terms. Techniques include factoring out the greatest common factor (GCF), using patterns like the difference of squares, or applying the AC method for trinomials. These skills lay the groundwork for solving equations and graphing parabolas. Exponents also appear in scientific notation, which expresses very large or small numbers compactly, such as 3.2 × 10⁵ for 320,000. Mastery of exponents and polynomials expands algebraic fluency and prepares students for deeper problem-solving.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#six" aria-expanded="false" aria-controls="collapseFour">
+                    <h3>Quadratic Equations and Functions</h3>
+                </button>
+                </h2>
+                <div id="six" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Quadratic equations involve terms where the variable is squared and are typically written in the standard form ax² + bx + c = 0. These equations produce parabolas when graphed and appear in many real-world scenarios involving area, projectile motion, and economics. The most straightforward method of solving a quadratic is factoring. If the equation can be expressed as a product of binomials, like x² + 5x + 6 = 0, we rewrite it as (x + 2)(x + 3) = 0 and apply the zero product property, giving solutions x = -2 and x = -3. Not all quadratics are factorable with integers, so other techniques come into play. The quadratic formula, x = (-b ± √(b² - 4ac)) / 2a, provides a reliable way to find solutions for any quadratic equation. The expression under the square root, b² - 4ac, called the discriminant, reveals the nature of the roots. If it's positive, the equation has two real solutions; if zero, one real solution; and if negative, two complex solutions.
+
+Completing the square is another method used when the coefficient of x² is 1. For example, to solve x² + 6x + 5 = 0 by completing the square, rewrite it as x² + 6x = -5. Then add 9 (which is (6/2)²) to both sides, forming (x + 3)² = 4, and solve by taking square roots. Quadratic functions also appear in vertex form, y = a(x - h)² + k, which reveals the vertex of the parabola at (h, k). The graph opens upward if a is positive and downward if negative. This form makes it easier to graph and understand transformations from the parent function y = x².
+
+Graphing quadratics involves creating a table of values or identifying key features: the vertex, axis of symmetry, y-intercept, and direction of opening. The axis of symmetry is a vertical line passing through the vertex, and the vertex itself can be found using -b/2a. For instance, in y = 2x² - 4x + 1, the vertex occurs at x = 1. Plugging back in gives y = -1, so the vertex is (1, -1). Quadratics model many real-world applications, such as calculating maximum height, finding break-even points, and analyzing profit. Mastering them involves understanding both their algebraic and graphical forms and transitioning smoothly between different solving strategies.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#seven" aria-expanded="false" aria-controls="collapseFour">
+                    <h3>Rationals and Radicals + Importance of Algebra</h3>
+                </button>
+                </h2>
+                <div id="seven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Rational expressions consist of ratios involving polynomials and require careful handling of restrictions and simplifications. A rational expression like (x² - 4)/(x - 2) can be simplified by factoring the numerator to (x - 2)(x + 2), allowing cancellation of common terms, provided x ≠ 2, which would make the denominator zero. Restrictions arise because division by zero is undefined, so identifying excluded values from the domain is key. Operations with rational expressions—addition, subtraction, multiplication, and division—mirror fraction rules. Addition and subtraction require finding a common denominator, while multiplication involves multiplying numerators and denominators directly. Division requires multiplying by the reciprocal.
+
+Simplifying complex rational expressions involves factoring and reducing terms, ensuring the final result is in lowest terms with appropriate domain restrictions. Rational equations, where expressions are set equal, can be solved by clearing denominators and solving the resulting equation, but it’s important to check for extraneous solutions that violate domain restrictions. Applications include problems like rate-time-distance, mixture problems, and proportional reasoning, all common in science and business contexts.
+
+Radical expressions involve roots, most often square roots, and add another layer of complexity. Simplifying radicals means factoring out perfect squares. For instance, √50 becomes √(25 × 2), which simplifies to 5√2. Operations with radicals require attention to radical rules: only like radicals can be added or subtracted. Multiplying radicals involves applying the rule √a × √b = √(ab). Rationalizing denominators removes radicals from the bottom of a fraction, often by multiplying numerator and denominator by the conjugate.
+
+Equations with radicals require isolating the radical and then squaring both sides to eliminate it. Doing so introduces the possibility of extraneous solutions, so verification is essential. Radical equations appear in geometry, physics, and other disciplines involving measurements and rates. Algebraic application of these concepts includes solving word problems, setting up relationships between quantities, and using algebra to describe or predict outcomes. By integrating rational and radical expressions into a broader algebraic framework, students enhance their problem-solving skills and prepare for more advanced mathematics like Precalculus and Calculus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
